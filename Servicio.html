@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSR</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link href="https://www.dafontfree.net/embed/YmVybGluLXNhbnMtZmItZGVtaS1ib2xkJmRhdGEvMTMvYi82NDUzNi9CUkxOU0RCLlRURg" rel="stylesheet" type="text/css"/>
+   
+
+    <!-- Bootstrap -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/animate.css">
+ <link href="css/animate.min.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet" />
+    
+ 
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/Cartas.css">
+    <script src="js/Cartas.js" defer></script>
+    
+   
+    
+    <link rel="icon" href="image/lgo2.png">
+    
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <img src="image/lgo2.png"> </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Busca tu producto...." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-motorcycle"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <header class="headerpp">
+      <div class="container">
+         
+          <nav class="menu">
+              <ul>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Categorías <i class="icon-abajo2"></i></a>
+                  <ul class="submenu">
+                      <li><a href="Plomeria.html">
+                          Plomeria 
+                      </a></li>
+                      <li><a href="#">
+                          Carpintería
+                      </a></li>
+                      <li><a href="Ferreteria.html">
+                          Ferreteria
+                      </a></li>
+                      <li><a href="Electricidad.html">
+                          Electricidad
+                    </a></li>
+                  <li><a href="#">
+                           Griferia 
+                </a></li>
+                <li><a href="#">
+                          Ferreteria
+                          <li><a href="#">
+                            Herramientas 
+                        </a></li>
+                        <li><a href="#">
+                          Hogar
+                      </a></li>
+                      <li><a href="#">
+                        Iluminación
+                    </a></li>
+              </a></li>
+                  </ul>
+                  </li>
+                  <li><a href="Servicio.html">Servicios</a></li>
+                  <li><a href="#">Contacto <i class="icon-abajo2"></i></a>
+                  
+                  </li>
+                  
+              </ul>
+          </nav>
+      </div>
+
+
+
+
+
+</header>
+
+<!-- header section ends -->
+<br><br>
+
+<br><br><br>
+<body>
+
+    <header>
+        <a href="#" class="brand"></a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          
+          </div>
+        </div>
+      </header>
+  
+      <section class="home">
+        <video class="video-slide active" src="image/Plomeria.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="image/Carpinteria.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="image/Construcción.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="image/Jardineria.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="image/Electricidad.mp4" autoplay muted loop></video>
+        <div class="content active">
+          <h1>Herramientas de<br><span>Plomería</span></h1>
+          <p>  </p>
+          <a href="Plomeria.html">Visitar</a>
+        </div>
+        <div class="content">
+          <h1>Herramientas de<br><span>Carpintería</span></h1>
+          <p></p>
+          <a href="#">Visitar</a>
+        </div>
+        <div class="content">
+          <h1>Herramientas de<br><span>Construcción</span></h1>
+          <p></p>
+          <a href="#">Visitar</a>
+        </div>
+        <div class="content">
+          <h1>Herramientas de<br><span>Jardinería</span></h1>
+          <p></p>
+          <a href="#">Visitar</a>
+        </div>
+        <div class="content">
+          <h1>Herramientas de<br><span>Electricidad</span></h1>
+          <p></p>
+          <a href="Electricidad.html">Visitar</a>
+        </div>
+        
+        <div class="slider-navigation">
+          <div class="nav-btn active"></div>
+          <div class="nav-btn"></div>
+          <div class="nav-btn"></div>
+          <div class="nav-btn"></div>
+          <div class="nav-btn"></div>
+        </div>
+      </section>
+  
+      <script type="text/javascript">
+      //Javacript for responsive navigation menu
+      const menuBtn = document.querySelector(".menu-btn");
+      const navigation = document.querySelector(".navigation");
+  
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+      });
+  
+      //Javacript for video slider navigation
+      const btns = document.querySelectorAll(".nav-btn");
+      const slides = document.querySelectorAll(".video-slide");
+      const contents = document.querySelectorAll(".content");
+  
+      var sliderNav = function(manual){
+        btns.forEach((btn) => {
+          btn.classList.remove("active");
+        });
+  
+        slides.forEach((slide) => {
+          slide.classList.remove("active");
+        });
+  
+        contents.forEach((content) => {
+          content.classList.remove("active");
+        });
+  
+        btns[manual].classList.add("active");
+        slides[manual].classList.add("active");
+        contents[manual].classList.add("active");
+      }
+  
+      btns.forEach((btn, i) => {
+        btn.addEventListener("click", () => {
+          sliderNav(i);
+        });
+      });
+      </script>
+  
+
+<br> <br> <br><br><br>
+
+<h1> <center> Categorías de ventas </center></h1>
+
+<main>
+    <div class="container__box">
+        <div class="box">
+          <a href="Plomeria.html" class="fas fa-wrench"></a>
+            <h5>Plomería</h5>
+            <h4>Plomería</h4>
+        </div>
+        <div class="box">
+          <a href="Electricidad.html" class="fas fa-lightbulb"></a>
+            <h5>Electricidad</h5>
+            <h4>Electricidad</h4>
+        </div>
+        <div class="box">
+          <a href="Ferreteria.html" class="fas fa-hammer"></a>
+            <h5>Ferreteria</h5>
+            <h4>Ferreteria</h4>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-screwdriver"></a>
+            <h5>Carpintería</h5>
+            <h4>Carpintería</h4>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-lock"></a>
+            <h5>Seguridad</h5>
+            <h4>Seguridad</h4>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-truck"></a>
+            <h5>Maquinaria</h5>
+            <h4>Maquinaria</h4>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-seedling"></a>
+            <h5>Jardinería</h5>
+            <h4>Jardinería</h4>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-bath"></a>
+            <h5>Hogar</h5>
+            <h4>Hogar</h4>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-paint-roller"></a>
+            <h5>Pinturas</h5>
+            <h4>Pinturas</h4>
+        </div>
+       
+    </div>
+
+</main>
+ 
+  <br><br>
+  
+     
+<div class="containerPP">
+
+  <h3 class="title"> Productos Tendencias</h3>
+
+  <div class="products-container">
+
+     <div class="product" data-name="p-1">
+        <img src="image/Sin fondo/Cinta metrica.png" alt="">
+        <h3>Cinta Métrica</h3>
+        <div class="price">$450</div>
+     </div>
+
+     <div class="product" data-name="p-2">
+        <img src="image/Sin fondo/LLave doble.png" alt="">
+        <h3>Llave Doble</h3>
+        <div class="price">$150</div>
+     </div>
+
+     <div class="product" data-name="p-3">
+        <img src="image/Sin fondo/Tijera.jpg" alt="">
+        <h3>Tijeras para podar</h3>
+        <div class="price">$900</div>
+     </div>
+
+     <div class="product" data-name="p-4">
+        <img src="image/Sin fondo/Martillo.jpg" alt="">
+        <h3>Martillo</h3>
+        <div class="price">$700</div>
+     </div>
+
+     <div class="product" data-name="p-5">
+        <img src="image/Sin fondo/LLave Tilson.png" alt="">
+        <h3>Llave Stilson</h3>
+        <div class="price">$1,200</div>
+     </div>
+
+     <div class="product" data-name="p-6">
+        <img src="image/Sin fondo/Pinzas.png" alt="">
+        <h3>Pinzas</h3>
+        <div class="price">$300</div>
+     </div>
+
+  </div>
+
+</div>
+
+<div class="products-preview">
+
+  <div class="preview" data-target="p-1">
+     <i class="fas fa-times"></i>
+     <img src="image/Sin fondo/Cinta metrica.png" alt="">
+     <h3>Cinta Métrica Stanley</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span></span>
+     </div>
+     <p>Una cinta de medir, flexible, graduada y que se puede enrollar.</p>
+     <div class="price">$450</div>
+     <div class="buttons">
+        <a href="#" class="buy">Más infromación</a>
+        <a href="#" class="cart">Añadir al Carrito</a>
+     </div>
+  </div>
+
+  <div class="preview" data-target="p-2">
+     <i class="fas fa-times"></i>
+     <img src="image/Sin fondo/LLave doble.png" alt="">
+     <h3>Llave Doble</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span></span>
+     </div>
+     <p>Llave inglesa de doble cabeza, con forma de U de metal.</p>
+     <div class="price">$150</div>
+     <div class="buttons">
+        <a href="#" class="buy">Más infromación</a>
+        <a href="#" class="cart">Añadir al Carrito</a>
+     </div>
+  </div>
+
+  <div class="preview" data-target="p-3">
+     <i class="fas fa-times"></i>
+     <img src="image/Sin fondo/Tijera.jpg" alt="">
+     <h3>Tijeras para podar</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span></span>
+     </div>
+     <p>Tijeras para podar, funciona en árboles frutales, plantas en flor o cortar ramas largas</p>
+     <div class="price">$900</div>
+     <div class="buttons">
+        <a href="#" class="buy">Más infromación</a>
+        <a href="#" class="cart">Añadir al Carrito</a>
+     </div>
+  </div>
+
+  <div class="preview" data-target="p-4">
+     <i class="fas fa-times"></i>
+     <img src="image/Sin fondo/Martillo.jpg" alt="">
+     <h3>Martillo Masso</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span></span>
+     </div>
+     <p>Herramienta de percusión utilizada para golpear directamente o indirectamente​ una pieza.</p>
+     <div class="price">$700</div>
+     <div class="buttons">
+        <a href="#" class="buy">Más infromación</a>
+        <a href="#" class="cart">Añadir al Carrito</a>
+     </div>
+  </div>
+
+  <div class="preview" data-target="p-5">
+     <i class="fas fa-times"></i>
+     <img src="image/Sin fondo/LLave Tilson.png" alt="">
+     <h3>Llave Stilson</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span></span>
+     </div>
+     <p>Llave para tubos o llave grifa es una llave ajustable usada para apretar, aflojar o ajustar piezas.</p>
+     <div class="price">$1,200</div>
+     <div class="buttons">
+        <a href="#" class="buy">Más infromación</a>
+        <a href="#" class="cart">Añadir al Carrito</a>
+     </div>
+  </div>
+
+  <div class="preview" data-target="p-6">
+     <i class="fas fa-times"></i>
+     <img src="image/Sin fondo/Pinzas.png" alt="">
+     <h3>Pinzas Bosch</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span></span>
+     </div>
+     <p>Es un ingenio simple cuyos extremos se aproximan para sujetar algo..</p>
+     <div class="price">$400</div>
+     <div class="buttons">
+        <a href="#" class="buy">Más infromación</a>
+        <a href="#" class="cart">Añadir al Carrito</a>
+     </div>
+  </div>
+
+</div>
+
+
+  <br><br><br><br>
+
+  
+
+</body>
+
+
+
+
+<footer>
+  <div class="container">
+    <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h4>Sobre Nosotros</h4>
+      <p>Somos una empresa destinada a la venta de articulos ferreteros.</p>
+      <div class="contact-info">
+        <ul>
+          <li><i class="fa fa-home fa"></i>La ceibita, Santiago</li>
+          <li><i class="fa fa-phone fa"></i> 809-445-6879</li>
+          <li><i class="fa fa-envelope fa"></i> info@SSR.net</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+      <div class="text-center">
+        <h4>Galeria de artículos</h4>
+        <ul class="sidebar-gallery">
+          <li><a href="#"><img src="image/Pinzas 2.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="image/Llave inglesa.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="image/Taladrooo 2.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="image/Martillo 2.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="image/Plano 2.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="image/LLave ajustable.jpg" alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+      <div class="">
+        <h4>Envianos un correo</h4>
+        <p>Comparte con nosotros tu experiencia o si quieres realizar algún pedido de los productos que ofrecemos.</p>
+        <div class="btn-gamp">
+          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Correo">
+        </div>
+        <div class="btn-gamp">
+          <a type="submit" class="btn btn-default">Enviar</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<div class="footer-wrap-2">
+  <div class="line"></div>
+  <div class="social-link">
+      <a href="#">
+          <img src="image/fb.png" alt="Facebook">
+      </a>
+      <a href="#">
+          <img src="image/google.png" alt="Google">
+      </a>
+      <a href="#">
+          <img src="image/linkedin.png" alt="linkedin">
+      </a>
+      <a href="#">
+          <img src="image/twitter.png" alt="twitter">
+      </a>
+  </div>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="first-box">
+  <a href="#">Terminos & Condicones</a>
+  <a href="#">Politicas de privacidad</a>
+</div>
+<div class="last-box">
+  <a href="#">&copy; Copyright 2021 SSR. Inc</a>
+</div>
+</div>
+</div>
+
+
+  
+</html>
+
+
+
+
+

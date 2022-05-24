@@ -1,0 +1,175 @@
+
+
+
+
+
+
+
+
+<div class="container">
+    
+  <div class="item">
+      <img src="image/Productos Plomeria/Adaptador mcho.png" alt="" class="item-img">
+      <div class="item-text">
+        <h3>Adaptador Macho</h3>
+        <p>Marca:
+          FLEXX</p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$RD70.00 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+      </div>
+    </div>
+    
+    
+    <div class="item">
+      <img src="image/Productos Plomeria/adjustable.jpg" alt="" class="item-img">
+      <div class="item-text">
+        <h3>LLAVE STILSON</h3>
+        <p>Marca:
+          STANLEY</p>
+        <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$RD845.00 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="image/Productos Plomeria/Bomba ladrona.png" alt="" class="item-img">
+      <div class="item-text">
+        <h3>Bomba Ladrona</h3>
+        <p>Marca: Stnaley</p>
+        <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$2,500 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="image/Productos Plomeria/Calentador.png" alt="" class="item-img">
+      <div class="item-text">
+        <h3>Çalentador de agua</h3>
+        <p> Marca: EnerGuide</p>
+        <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$5,000 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+      </div>
+    </div>
+
+    <div class="item">
+        <img src="image/Productos Plomeria/Cemento pv.png" alt="" class="item-img">
+        <div class="item-text">
+          <h3>Cellador PVC</h3>
+          <p>Marca: Lanco</p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$250 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image/Productos Plomeria/Codo pvc.png" alt="" class="item-img">
+        <div class="item-text">
+          <h3>Codo PVC 1/2</h3>
+          <p> Marca: Flexx</p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$50 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image/Productos Plomeria/Hinodoro.png" alt="" class="item-img">
+        <div class="item-text">
+          <h3>Inodoro</h3>
+          <p>Marca: Palestar</p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$6,000 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image/Productos Plomeria/Lava manos.png" alt="" class="item-img">
+        <div class="item-text">
+          <h3>LLave de mano</h3>
+          <p> Marca: Castalosa</p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$2,500 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image/Productos Plomeria/adjustable.jpg" alt="" class="item-img">
+        <div class="item-text">
+          <h3>LLave de jardin</h3>
+          <p>Marca: Castalosa</p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$270 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image/Productos Plomeria/LLave de patio.png" alt="" class="item-img">
+        <div class="item-text">
+          <h3>LLave de jardin</h3>
+          <p> Marca: Lanco</p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$200 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+        </div>
+      </div>
+
+      
+
+      <div class="item">
+        <img src="image/Productos Plomeria/Tinaco.png" alt="" class="item-img">
+        <div class="item-text">
+          <h3>Tinaco</h3>
+          <p>Marca: Rotoplas
+          </p>
+          <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$8,500 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+        </div>
+      </div>
+    
+    <div class="item">
+      <img src="image/Productos Plomeria/Tubería y conexión Galvanizada..png" alt="" class="item-img">
+      <div class="item-text">
+        <h3>Tubería y conexión Galvanizada.</h3>
+        <p>Marca: Flexx</p>
+        <br>
+          <img src="img/estrellas.png">
+          <br>
+          <p class="precio">$150 </p>
+          <button class="boton"><p>Agregar al carrito</p></button>
+      </div>
+    </div>
+    
+  </div>
+
+
